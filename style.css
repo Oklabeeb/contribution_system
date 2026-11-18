@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+body {
+font-family: Arial, sans-serif;
+background: #f4f6f8;
+color: #222;
+padding: 30px;
+}
+
+h1 {
+text-align: center;
+margin-bottom: 30px;
+color: #123c69;
+}
+
+/* Main form */
+
+#contributionForm {
+width: 100%;
+max-width: 600px;
+margin: 0 auto 30px;
+background: white;
+padding: 25px;
+border-radius: 10px;
+box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+#contributionForm label {
+display: block;
+margin-top: 15px;
+margin-bottom: 7px;
+font-weight: bold;
+}
+
+#contributionForm input {
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 6px;
+font-size: 16px;
+}
+
+/* Buttons */
+
+button {
+margin-top: 20px;
+padding: 12px 20px;
+border: none;
+border-radius: 6px;
+background: #123c69;
+color: white;
+font-size: 16px;
+cursor: pointer;
+}
+
+button:hover {
+background: #0b2d50;
+}
+
+/* Name inputs */
+
+#nameInputs {
+width: 100%;
+max-width: 600px;
+margin: 0 auto 30px;
+}
+
+#nameInputs label {
+display: block;
+margin-top: 12px;
+margin-bottom: 5px;
+font-weight: bold;
+}
+
+#nameInputs input {
+width: 100%;
+padding: 11px;
+border: 1px solid #ccc;
+border-radius: 6px;
+font-size: 16px;
+}
+
+/* Schedule */
+
+#schedule {
+width: 100%;
+max-width: 1100px;
+margin: 30px auto;
+overflow-x: auto;
+}
+
+#schedule table {
+width: 100%;
+border-collapse: collapse;
+background: white;
+}
+
+#schedule th,
+#schedule td {
+padding: 14px;
+border: 1px solid #ddd;
+text-align: center;
+}
+
+#schedule th {
+background: #123c69;
+color: white;
+}
+
+#schedule tr:nth-child(even) {
+background: #f7f7f7;
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+body {
+    padding: 15px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+#contributionForm {
+    padding: 18px;
+}
+
+#schedule {
+    overflow-x: auto;
+}
+
+#schedule table {
+    min-width: 700px;
+}
+
+
+}
